@@ -1,3 +1,4 @@
+nextflow.enable.dsl=2
 include { TRIMMING } from './TRIMMING.nf'
 include { INDEX } from './INDEX.nf'
 include { ALIGNMENT } from './ALIGNMENT.nf'
